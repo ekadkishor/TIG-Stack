@@ -2,8 +2,10 @@
 This TIG stack is created for Syslog Analysis.
 simply download the docker-compose file and fire up the TIG stack and your Syslog analysis server will be ready.
 
-
-
+---
+curl -L https://github.com/docker/compose/releases/download/v1.25.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+---
 
 after firing up Stack initial telegraf.conf file will be created in the current directory. edit the below configuration as below.
 
